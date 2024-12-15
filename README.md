@@ -12,6 +12,10 @@ Dans votre conteneur Azure, créez les dossiers nécessaires pour organiser les 
 
 /ds-gold/emdat/current.
 
+# Charger les données en format Parquet.
+
+Placez le fichier source public-emdat.parquet dans un dossier local ou une autre source accessible, puis chargez-le dans le dossier /ds-bronze/emdat/current sur Azure Blob Storage.
+
 # Ajouter la dépendance Maven pour Iceberg.
 
 Pour utiliser Iceberg avec Databricks, ajoutez la dépendance suivante à votre cluster Spark :
